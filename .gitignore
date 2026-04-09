@@ -1,0 +1,32 @@
+# 平台特定应用目录 - 这些目录包含各自平台的完整应用
+Anxuan_Select_Mac/
+Anxuan_Select_Windows/
+
+# Python 打包文件
+*.spec
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE 配置
+.trae/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log

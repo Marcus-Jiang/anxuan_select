@@ -1,0 +1,2887 @@
+[
+  {
+    "name_cn": "个护健康与美妆造型电器",
+    "name_jp": "パーソナルケア・健康・美容家電",
+    "children": [
+      {
+        "name_cn": "美发造型工具",
+        "name_jp": "ヘアスタイリングツール",
+        "children": [
+          {
+            "name_cn": "吹风机",
+            "name_jp": "ドライヤー",
+            "products": [
+              {
+                "name_cn": "普通吹风机",
+                "name_jp": "普通ドライヤー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/普通吹风机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/普通吹风机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "高速吹风机",
+                "name_jp": "高速ドライヤー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/高速吹风机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/高速吹风机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/高速吹风机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/高速吹风机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/高速吹风机_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "折叠吹风机",
+                "name_jp": "折りたたみドライヤー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/折叠吹风机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/折叠吹风机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "宠物吹风机",
+                "name_jp": "ペットドライヤー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/吹风机/宠物吹风机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "直发造型工具",
+            "name_jp": "ストレートヘアツール",
+            "products": [
+              {
+                "name_cn": "直发器",
+                "name_jp": "ストレートアイロン",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/直发器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "Mini 直发器",
+                "name_jp": "ミニストレートアイロン",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/Mini 直发器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/Mini 直发器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "多功能直发器",
+                "name_jp": "多機能ストレートアイロン",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/多功能直发器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电热梳",
+                "name_jp": "電熱ブラシ",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/电热梳_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/电热梳_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/电热梳_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "冷风直发梳",
+                "name_jp": "冷風ストレートブラシ",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/直发造型工具/冷风直发梳_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "卷发烫发工具",
+            "name_jp": "カール・パーマツール",
+            "products": [
+              {
+                "name_cn": "卷发器",
+                "name_jp": "カーラー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/卷发烫发工具/卷发器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "无线卷发器",
+                "name_jp": "ワイヤレスカーラー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/卷发烫发工具/无线卷发器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "蛋卷发棒",
+                "name_jp": "ウェーブヘアアイロン",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/卷发烫发工具/蛋卷发棒_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/卷发烫发工具/蛋卷发棒_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "自动卷发器",
+                "name_jp": "自動カーラー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/卷发烫发工具/自动卷发器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "换头卷发棒",
+                "name_jp": "ヘッド交換式カーラー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/美发造型工具/卷发烫发工具/换头卷发棒_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "口腔护理电器",
+        "name_jp": "口腔ケア家電",
+        "children": [
+          {
+            "name_cn": "电动牙刷",
+            "name_jp": "電動歯ブラシ",
+            "products": [
+              {
+                "name_cn": "普通电动牙刷",
+                "name_jp": "普通電動歯ブラシ",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/电动牙刷/普通电动牙刷_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/电动牙刷/普通电动牙刷_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/电动牙刷/普通电动牙刷_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/电动牙刷/普通电动牙刷_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/电动牙刷/普通电动牙刷_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "口腔冲洗器",
+            "name_jp": "口腔洗浄器",
+            "products": [
+              {
+                "name_cn": "口腔冲洗器",
+                "name_jp": "口腔洗浄器",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/口腔冲洗器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/口腔冲洗器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/口腔冲洗器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "便携冲牙器",
+                "name_jp": "携帯用歯間洗浄器",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/便携冲牙器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/便携冲牙器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/便携冲牙器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/口腔护理电器/口腔冲洗器/便携冲牙器_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "身体护理与脱毛工具",
+        "name_jp": "ボディケア・脱毛ツール",
+        "children": [
+          {
+            "name_cn": "脱毛修毛工具",
+            "name_jp": "脱毛・ムダ毛処理ツール",
+            "products": [
+              {
+                "name_cn": "脱毛仪",
+                "name_jp": "脱毛器",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/脱毛仪_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/脱毛仪_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/脱毛仪_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/脱毛仪_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/脱毛仪_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电动剃毛机",
+                "name_jp": "電動シェーバー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/电动剃毛机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电动修眉刀",
+                "name_jp": "電動眉カッター",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/电动修眉刀_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/电动修眉刀_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/脱毛修毛工具/电动修眉刀_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "面部护理工具",
+            "name_jp": "フェイスケアツール",
+            "products": [
+              {
+                "name_cn": "硅胶洁面仪",
+                "name_jp": "シリコン洗顔器",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/面部护理工具/硅胶洁面仪_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/面部护理工具/硅胶洁面仪_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电动磨皮机",
+                "name_jp": "電動ピーリング機",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/面部护理工具/电动磨皮机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/面部护理工具/电动磨皮机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "毛发修剪工具",
+            "name_jp": "ヘアトリミングツール",
+            "products": [
+              {
+                "name_cn": "电动理发剪",
+                "name_jp": "電動バリカン",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/电动理发剪_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/电动理发剪_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电动剃须刀",
+                "name_jp": "電動シェーバー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/电动剃须刀_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/电动剃须刀_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/电动剃须刀_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "便携式剃须刀",
+                "name_jp": "携帯用シェーバー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/便携式剃须刀_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/便携式剃须刀_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "胡须修剪器",
+                "name_jp": "ヒゲトリマー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/胡须修剪器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/胡须修剪器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "鼻毛修剪器",
+                "name_jp": "鼻毛カッター",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/鼻毛修剪器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/鼻毛修剪器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/身体护理与脱毛工具/毛发修剪工具/鼻毛修剪器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "健康按摩电器",
+        "name_jp": "健康マッサージ家電",
+        "children": [
+          {
+            "name_cn": "全身按摩工具",
+            "name_jp": "全身マッサージツール",
+            "products": [
+              {
+                "name_cn": "筋膜枪",
+                "name_jp": "筋膜リリースガン",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/全身按摩工具/筋膜枪_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/全身按摩工具/筋膜枪_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "部位按摩工具",
+            "name_jp": "部位別マッサージツール",
+            "products": [
+              {
+                "name_cn": "mini 颈部按摩器",
+                "name_jp": "ミニ首マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/mini 颈部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/mini 颈部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/mini 颈部按摩器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/mini 颈部按摩器_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/mini 颈部按摩器_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "mini头部按摩器",
+                "name_jp": "ミニ頭皮マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/mini头部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "肩颈部按摩器",
+                "name_jp": "肩首マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/肩颈部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/肩颈部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "膝部按摩器",
+                "name_jp": "膝マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/膝部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/膝部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/膝部按摩器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "腰部按摩器",
+                "name_jp": "腰マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/腰部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/腰部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/腰部按摩器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "腿部按摩器",
+                "name_jp": "脚マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/腿部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/腿部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/腿部按摩器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "眼部按摩器",
+                "name_jp": "目マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/眼部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/眼部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "足部按摩器",
+                "name_jp": "足マッサージャー",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/足部按摩器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/健康按摩电器/部位按摩工具/足部按摩器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "家用清洁护理电器",
+        "name_jp": "家庭用クリーニング・ケア家電",
+        "children": [
+          {
+            "name_cn": "除螨仪",
+            "name_jp": "ダニ取り機",
+            "products": [
+              {
+                "name_cn": "家用除螨仪",
+                "name_jp": "家庭用ダニ取り機",
+                "images": [
+                  {
+                    "path": "images/个护健康与美妆造型电器/家用清洁护理电器/除螨仪/家用除螨仪_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/个护健康与美妆造型电器/家用清洁护理电器/除螨仪/家用除螨仪_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name_cn": "厨房小家电",
+    "name_jp": "キッチン小型家電",
+    "children": [
+      {
+        "name_cn": "饮品制作电器",
+        "name_jp": "飲料製作家電",
+        "children": [
+          {
+            "name_cn": "咖啡制作器具",
+            "name_jp": "コーヒー製造器具",
+            "products": [
+              {
+                "name_cn": "便携式意式咖啡机",
+                "name_jp": "携帯用エスプレッソマシン",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/便携式意式咖啡机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/便携式意式咖啡机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电动咖啡豆研磨器",
+                "name_jp": "電動コーヒー豆グラインダー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/电动咖啡豆研磨器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/电动咖啡豆研磨器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/电动咖啡豆研磨器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电动奶泡机",
+                "name_jp": "電動ミルクフォーマー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/电动奶泡机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "手动咖啡豆研磨器",
+                "name_jp": "手動コーヒー豆グラインダー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/手动咖啡豆研磨器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/手动咖啡豆研磨器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/手动咖啡豆研磨器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/手动咖啡豆研磨器_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/手动咖啡豆研磨器_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "手冲咖啡套装",
+                "name_jp": "ハンドドリップコーヒーセット",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/咖啡制作器具/手冲咖啡套装_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "果蔬饮品制作电器",
+            "name_jp": "野菜・果物飲料製作家電",
+            "products": [
+              {
+                "name_cn": "电动榨汁机",
+                "name_jp": "電動ジューサー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/果蔬饮品制作电器/电动榨汁机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/果蔬饮品制作电器/电动榨汁机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "其他饮品制作电器",
+            "name_jp": "その他飲料製作家電",
+            "products": [
+              {
+                "name_cn": "苏打水机",
+                "name_jp": "炭酸水メーカー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/其他饮品制作电器/苏打水机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "净水机",
+                "name_jp": "浄水器",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/饮品制作电器/其他饮品制作电器/净水机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "食材处理电器",
+        "name_jp": "食材処理家電",
+        "children": [
+          {
+            "name_cn": "食材研磨器具",
+            "name_jp": "食材粉末器具",
+            "products": [
+              {
+                "name_cn": "电动胡椒研磨器",
+                "name_jp": "電動胡椒ミル",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材研磨器具/电动胡椒研磨器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材研磨器具/电动胡椒研磨器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材研磨器具/电动胡椒研磨器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "手动胡椒研磨器",
+                "name_jp": "手動胡椒ミル",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材研磨器具/手动胡椒研磨器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材研磨器具/手动胡椒研磨器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "食材加工电器",
+            "name_jp": "食材加工家電",
+            "products": [
+              {
+                "name_cn": "厨师机",
+                "name_jp": "スタンドミキサー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/厨师机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "绞肉机",
+                "name_jp": "ミートチョッパー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/绞肉机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/绞肉机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "打蛋器",
+                "name_jp": "ハンドミキサー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/打蛋器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "搅拌器",
+                "name_jp": "ブレンダー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/搅拌器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/搅拌器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/搅拌器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "手持料理棒",
+                "name_jp": "ハンドブレンダー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/手持料理棒_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "切片机",
+                "name_jp": "スライサー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材加工电器/切片机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "食材保鲜电器",
+            "name_jp": "食材保鮮家電",
+            "products": [
+              {
+                "name_cn": "真空封口机",
+                "name_jp": "真空シーラー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/食材处理电器/食材保鲜电器/真空封口机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "烹饪料理电器",
+        "name_jp": "調理家電",
+        "children": [
+          {
+            "name_cn": "空气炸锅与烤箱",
+            "name_jp": "ノンフライヤー・オーブン",
+            "products": [
+              {
+                "name_cn": "空气炸锅",
+                "name_jp": "ノンフライヤー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/空气炸锅与烤箱/空气炸锅_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/空气炸锅与烤箱/空气炸锅_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "烤箱",
+                "name_jp": "オーブン",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/空气炸锅与烤箱/烤箱_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "蒸煮电器",
+            "name_jp": "蒸し・煮込み家電",
+            "products": [
+              {
+                "name_cn": "电蒸锅",
+                "name_jp": "電気蒸し器",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/蒸煮电器/电蒸锅_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电煮锅",
+                "name_jp": "電気鍋",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/蒸煮电器/电煮锅_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "早餐电器",
+            "name_jp": "朝食家電",
+            "products": [
+              {
+                "name_cn": "烤面包机",
+                "name_jp": "トースター",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/烤面包机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/烤面包机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/烤面包机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/烤面包机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/烤面包机_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "华夫饼机",
+                "name_jp": "ワッフルメーカー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/华夫饼机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "三文治机",
+                "name_jp": "ホットサンドメーカー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/三文治机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/早餐电器/三文治机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "煎炸电器",
+            "name_jp": "揚げ・炒め家電",
+            "products": [
+              {
+                "name_cn": "电煎锅",
+                "name_jp": "電気フライパン",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/煎炸电器/电煎锅_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/烹饪料理电器/煎炸电器/电煎锅_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "冰品制作电器",
+        "name_jp": "氷菓製作家電",
+        "children": [
+          {
+            "name_cn": "冰块制作电器",
+            "name_jp": "氷製作家電",
+            "products": [
+              {
+                "name_cn": "制冰机",
+                "name_jp": "製氷機",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/冰品制作电器/冰块制作电器/制冰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/厨房小家电/冰品制作电器/冰块制作电器/制冰机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "雪冰制作电器",
+            "name_jp": "かき氷製作家電",
+            "products": [
+              {
+                "name_cn": "雪冰机",
+                "name_jp": "かき氷機",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/冰品制作电器/雪冰制作电器/雪冰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "饮品制作电器",
+            "name_jp": "飲料製作家電",
+            "products": [
+              {
+                "name_cn": "沙冰机",
+                "name_jp": "スムージーメーカー",
+                "images": [
+                  {
+                    "path": "images/厨房小家电/冰品制作电器/饮品制作电器/沙冰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name_cn": "家居环境与生活电器",
+    "name_jp": "住環境・生活家電",
+    "children": [
+      {
+        "name_cn": "环境调节电器",
+        "name_jp": "環境調節家電",
+        "children": [
+          {
+            "name_cn": "空气净化设备",
+            "name_jp": "空気清浄機器",
+            "products": [
+              {
+                "name_cn": "桌面空气净化器",
+                "name_jp": "卓上空気清浄機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/桌面空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/桌面空气净化器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "家用空气净化器",
+                "name_jp": "家庭用空気清浄機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/家用空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "宠物专用空气净化器",
+                "name_jp": "ペット専用空気清浄機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/宠物专用空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "带加湿功能的空气净化器",
+                "name_jp": "加湿機能付き空気清浄機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/带加湿功能的空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/带加湿功能的空气净化器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "除甲醛空气净化器",
+                "name_jp": "ホルムアルデヒド除去空気清浄機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/除甲醛空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/除甲醛空气净化器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "壁挂式空气净化器",
+                "name_jp": "壁掛け式空気清浄機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/空气净化设备/壁挂式空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "温湿度调节设备",
+            "name_jp": "温湿度調節機器",
+            "products": [
+              {
+                "name_cn": "迷你除湿机",
+                "name_jp": "ミニ除湿機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/迷你除湿机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/迷你除湿机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "对流式电加热器",
+                "name_jp": "対流式電気ヒーター",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/对流式电加热器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/对流式电加热器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "户外电加热器",
+                "name_jp": "屋外用電気ヒーター",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/户外电加热器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/户外电加热器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "板式加热器",
+                "name_jp": "パネルヒーター",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/板式加热器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "踢脚线加热器",
+                "name_jp": "ベースヒーター",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/温湿度调节设备/踢脚线加热器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "卫浴取暖设备",
+            "name_jp": "浴室暖房機器",
+            "products": [
+              {
+                "name_cn": "浴室取暖器",
+                "name_jp": "浴室用暖房器具",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/环境调节电器/卫浴取暖设备/浴室取暖器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "家用护理电器",
+        "name_jp": "家庭用ケア家電",
+        "children": [
+          {
+            "name_cn": "衣物护理电器",
+            "name_jp": "衣類ケア家電",
+            "products": [
+              {
+                "name_cn": "手持挂烫机",
+                "name_jp": "ハンディアイロン",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/手持挂烫机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/手持挂烫机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/手持挂烫机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/手持挂烫机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用挂烫机",
+                "name_jp": "業務用アイロン",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/商用挂烫机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/商用挂烫机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "立式挂烫机",
+                "name_jp": "スタンドアイロン",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/立式挂烫机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/立式挂烫机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/衣物护理电器/立式挂烫机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "家用烘干加热电器",
+            "name_jp": "家庭用乾燥・暖房家電",
+            "products": [
+              {
+                "name_cn": "鞋子烘干机",
+                "name_jp": "靴乾燥機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/家用烘干加热电器/鞋子烘干机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "毛巾加热器",
+                "name_jp": "タオルウォーマー",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/家用烘干加热电器/毛巾加热器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/家用烘干加热电器/毛巾加热器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "家用清洁电器",
+            "name_jp": "家庭用クリーニング家電",
+            "products": [
+              {
+                "name_cn": "蒸汽清洗机",
+                "name_jp": "スチームクリーナー",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/家用清洁电器/蒸汽清洗机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用护理电器/家用清洁电器/蒸汽清洗机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "香薰氛香设备",
+        "name_jp": "アロマ・芳香機器",
+        "children": [
+          {
+            "name_cn": "香薰机",
+            "name_jp": "アロマディフューザー",
+            "products": [
+              {
+                "name_cn": "桌面香薰机",
+                "name_jp": "卓上アロマディフューザー",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/桌面香薰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/桌面香薰机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/桌面香薰机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/桌面香薰机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/桌面香薰机_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "落地香薰机",
+                "name_jp": "床置きアロマディフューザー",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/落地香薰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/落地香薰机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/落地香薰机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "壁挂香薰机",
+                "name_jp": "壁掛けアロマディフューザー",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/壁挂香薰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "音响香薰机",
+                "name_jp": "スピーカー付きアロマディフューザー",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/音响香薰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/香薰氛香设备/香薰机/音响香薰机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "日用小电器",
+        "name_jp": "日用小型家電",
+        "children": [
+          {
+            "name_cn": "风扇",
+            "name_jp": "扇風機",
+            "products": [
+              {
+                "name_cn": "mini 风扇",
+                "name_jp": "ミニ扇風機",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_6.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_7.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/日用小电器/风扇/mini 风扇_8.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "家用显示设备",
+        "name_jp": "家庭用ディスプレイ機器",
+        "children": [
+          {
+            "name_cn": "可移动触摸娱乐屏",
+            "name_jp": "移動式タッチエンターテイメントスクリーン",
+            "products": [
+              {
+                "name_cn": "可移动触摸娱乐屏",
+                "name_jp": "移動式タッチエンターテイメントスクリーン",
+                "images": [
+                  {
+                    "path": "images/家居环境与生活电器/家用显示设备/可移动触摸娱乐屏/可移动触摸娱乐屏_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/家居环境与生活电器/家用显示设备/可移动触摸娱乐屏/可移动触摸娱乐屏_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name_cn": "商用与工业专用设备",
+    "name_jp": "業務用・産業用専門機器",
+    "children": [
+      {
+        "name_cn": "商用显示与广告设备",
+        "name_jp": "業務用ディスプレイ・広告機器",
+        "children": [
+          {
+            "name_cn": "商用液晶显示器",
+            "name_jp": "業務用液晶ディスプレイ",
+            "products": [
+              {
+                "name_cn": "商用壁挂液晶显示器",
+                "name_jp": "業務用壁掛け液晶ディスプレイ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用壁挂液晶显示器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用壁挂液晶显示器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用壁挂液晶显示器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用壁挂液晶显示器_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用壁挂液晶显示器_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用吊装液晶显示器",
+                "name_jp": "業務用天井吊り下げ液晶ディスプレイ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用吊装液晶显示器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用吊装液晶显示器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用吊装液晶显示器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用落地液晶显示器",
+                "name_jp": "業務用床置き液晶ディスプレイ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用落地液晶显示器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用异形液晶显示器",
+                "name_jp": "業務用異形液晶ディスプレイ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用异形液晶显示器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用异形液晶显示器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用异形液晶显示器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用异形液晶显示器_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用拼接液晶显示屏",
+                "name_jp": "業務用ビデオウォール",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用拼接液晶显示屏_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用拼接液晶显示屏_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用拼接液晶显示屏_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用防爆电视（KTV使用）",
+                "name_jp": "業務用防爆テレビ（KTV用）",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用液晶显示器/商用防爆电视（KTV使用）_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "商用广告机",
+            "name_jp": "業務用デジタルサイネージ",
+            "products": [
+              {
+                "name_cn": "室内一体式广告机",
+                "name_jp": "屋内一体型デジタルサイネージ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_6.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室内一体式广告机_7.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "室外一体式广告机",
+                "name_jp": "屋外一体型デジタルサイネージ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室外一体式广告机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/室外一体式广告机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "可移动广告机",
+                "name_jp": "移動式デジタルサイネージ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_6.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/可移动广告机_7.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "电子水牌",
+                "name_jp": "電子看板",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/电子水牌_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/电子水牌_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "壁挂式广告机",
+                "name_jp": "壁掛け式デジタルサイネージ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/壁挂式广告机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/壁挂式广告机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "墨水屏广告机",
+                "name_jp": "電子ペーパーデジタルサイネージ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用广告机/墨水屏广告机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "商用 LED 显示设备",
+            "name_jp": "業務用LEDディスプレイ機器",
+            "products": [
+              {
+                "name_cn": "商用 LED 显示屏",
+                "name_jp": "業務用LEDディスプレイ",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用 LED 显示设备/商用 LED 显示屏_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用 LED 显示设备/商用 LED 显示屏_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "商用 LED 一体机",
+                "name_jp": "業務用LED一体機",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用显示与广告设备/商用 LED 显示设备/商用 LED 一体机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "商用与工业计算机设备",
+        "name_jp": "業務用・産業用コンピュータ機器",
+        "children": [
+          {
+            "name_cn": "会议平板",
+            "name_jp": "会議用タブレット",
+            "products": [
+              {
+                "name_cn": "会议平板",
+                "name_jp": "会議用タブレット",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用与工业计算机设备/会议平板/会议平板_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用与工业计算机设备/会议平板/会议平板_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "商用自助终端设备",
+        "name_jp": "業務用セルフ端末機器",
+        "children": [
+          {
+            "name_cn": "商用自助终端设备",
+            "name_jp": "業務用セルフ端末機器",
+            "products": [
+              {
+                "name_cn": "自助点单机",
+                "name_jp": "セルフ注文機",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/自助点单机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/自助点单机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/自助点单机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "触摸查询一体机",
+                "name_jp": "タッチ案内端末",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/触摸查询一体机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/触摸查询一体机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/触摸查询一体机_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/触摸查询一体机_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/商用自助终端设备/商用自助终端设备/触摸查询一体机_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "工业专用电器",
+        "name_jp": "産業用専門家電",
+        "children": [
+          {
+            "name_cn": "工业专用电器",
+            "name_jp": "産業用専門家電",
+            "products": [
+              {
+                "name_cn": "工业用加热器",
+                "name_jp": "産業用ヒーター",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/工业专用电器/工业专用电器/工业用加热器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/工业专用电器/工业专用电器/工业用加热器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "工业风扇",
+                "name_jp": "産業用扇風機",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/工业专用电器/工业专用电器/工业风扇_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/工业专用电器/工业专用电器/工业风扇_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "工业香薰机",
+                "name_jp": "産業用アロマディフューザー",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/工业专用电器/工业专用电器/工业香薰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "音视频传输设备",
+        "name_jp": "音声映像伝送機器",
+        "children": [
+          {
+            "name_cn": "音视频传输设备",
+            "name_jp": "音声映像伝送機器",
+            "products": [
+              {
+                "name_cn": "HDMI 分路器",
+                "name_jp": "HDMI分配器",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI 分路器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI 分路器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "HDMI 切换器",
+                "name_jp": "HDMI切替器",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI 切换器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI 切换器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "HDMI延长器",
+                "name_jp": "HDMI延長器",
+                "images": [
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI延长器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI延长器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI延长器_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/商用与工业专用设备/音视频传输设备/音视频传输设备/HDMI延长器_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name_cn": "车载专用电器与设备",
+    "name_jp": "車載専用家電・機器",
+    "children": [
+      {
+        "name_cn": "车载影音显示设备",
+        "name_jp": "車載オーディオビジュアル機器",
+        "children": [
+          {
+            "name_cn": "车载影音显示设备",
+            "name_jp": "車載オーディオビジュアル機器",
+            "products": [
+              {
+                "name_cn": "车载中控屏",
+                "name_jp": "車載センターディスプレイ",
+                "images": [
+                  {
+                    "path": "images/车载专用电器与设备/车载影音显示设备/车载影音显示设备/车载中控屏_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/车载专用电器与设备/车载影音显示设备/车载影音显示设备/车载中控屏_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "车载后排娱乐屏",
+                "name_jp": "車載リアエンターテイメントスクリーン",
+                "images": [
+                  {
+                    "path": "images/车载专用电器与设备/车载影音显示设备/车载影音显示设备/车载后排娱乐屏_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/车载专用电器与设备/车载影音显示设备/车载影音显示设备/车载后排娱乐屏_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "车载环境电器",
+        "name_jp": "車載環境家電",
+        "children": [
+          {
+            "name_cn": "车载环境电器",
+            "name_jp": "車載環境家電",
+            "products": [
+              {
+                "name_cn": "车载空气净化器",
+                "name_jp": "車載空気清浄機",
+                "images": [
+                  {
+                    "path": "images/车载专用电器与设备/车载环境电器/车载环境电器/车载空气净化器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/车载专用电器与设备/车载环境电器/车载环境电器/车载空气净化器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "车载香薰机",
+                "name_jp": "車載アロマディフューザー",
+                "images": [
+                  {
+                    "path": "images/车载专用电器与设备/车载环境电器/车载环境电器/车载香薰机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/车载专用电器与设备/车载环境电器/车载环境电器/车载香薰机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name_cn": "安防与智能家居设备",
+    "name_jp": "防犯・スマートホーム機器",
+    "children": [
+      {
+        "name_cn": "家用监控摄像设备",
+        "name_jp": "家庭用監視カメラ機器",
+        "children": [
+          {
+            "name_cn": "室内监控摄像设备",
+            "name_jp": "屋内監視カメラ機器",
+            "products": [
+              {
+                "name_cn": "家用室内云台摄像机",
+                "name_jp": "家庭用屋内PTZカメラ",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室内监控摄像设备/家用室内云台摄像机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "室外监控摄像设备",
+            "name_jp": "屋外監視カメラ機器",
+            "products": [
+              {
+                "name_cn": "家用室外云台摄像机",
+                "name_jp": "家庭用屋外公園カメラ",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室外监控摄像设备/家用室外云台摄像机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室外监控摄像设备/家用室外云台摄像机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "家用室外筒形摄像机",
+                "name_jp": "家庭用屋外バレットカメラ",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室外监控摄像设备/家用室外筒形摄像机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "家用室外太阳能摄像机",
+                "name_jp": "家庭用屋外ソーラーカメラ",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室外监控摄像设备/家用室外太阳能摄像机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室外监控摄像设备/家用室外太阳能摄像机_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "POE 摄像机",
+                "name_jp": "POEカメラ",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/室外监控摄像设备/POE 摄像机_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "存储设备",
+            "name_jp": "ストレージ機器",
+            "products": [
+              {
+                "name_cn": "NVR",
+                "name_jp": "NVR",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/存储设备/NVR_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/存储设备/NVR_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/家用监控摄像设备/存储设备/NVR_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "家用智能门禁设备",
+        "name_jp": "家庭用スマートドア機器",
+        "children": [
+          {
+            "name_cn": "家用智能门禁设备",
+            "name_jp": "家庭用スマートドア機器",
+            "products": [
+              {
+                "name_cn": "智能门锁",
+                "name_jp": "スマートロック",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用智能门禁设备/家用智能门禁设备/智能门锁_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/家用智能门禁设备/家用智能门禁设备/智能门锁_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "可视门铃",
+                "name_jp": "インターホン",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/家用智能门禁设备/家用智能门禁设备/可视门铃_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/家用智能门禁设备/家用智能门禁设备/可视门铃_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "智能家居传感与控制设备",
+        "name_jp": "スマートホームセンサー・制御機器",
+        "children": [
+          {
+            "name_cn": "传感器",
+            "name_jp": "センサー",
+            "products": [
+              {
+                "name_cn": "家用温湿度传感器",
+                "name_jp": "家庭用温湿度センサー",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/传感器/家用温湿度传感器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "家用运动传感器",
+                "name_jp": "家庭用モーションセンサー",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/传感器/家用运动传感器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/传感器/家用运动传感器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "家用门窗开闭传感器",
+                "name_jp": "家庭用ドアウィンドウセンサー",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/传感器/家用门窗开闭传感器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/传感器/家用门窗开闭传感器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "智能按钮",
+            "name_jp": "スマートボタン",
+            "products": [
+              {
+                "name_cn": "家用智能按钮",
+                "name_jp": "家庭用スマートボタン",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/智能按钮/家用智能按钮_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/智能按钮/家用智能按钮_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "报警器",
+            "name_jp": "アラーム",
+            "products": [
+              {
+                "name_cn": "报警器",
+                "name_jp": "アラーム",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/报警器/报警器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "家庭网关",
+            "name_jp": "ホームゲートウェイ",
+            "products": [
+              {
+                "name_cn": "家庭网关",
+                "name_jp": "ホームゲートウェイ",
+                "images": [
+                  {
+                    "path": "images/安防与智能家居设备/智能家居传感与控制设备/家庭网关/家庭网关_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name_cn": "数码办公与周边配件",
+    "name_jp": "デジタルオフィス・周辺アクセサリー",
+    "children": [
+      {
+        "name_cn": "墨水屏办公商用产品",
+        "name_jp": "電子ペーパーオフィス・業務用製品",
+        "children": [
+          {
+            "name_cn": "商用标签类",
+            "name_jp": "業務用ラベル類",
+            "products": [
+              {
+                "name_cn": "墨水屏电子价签",
+                "name_jp": "電子ペーパー電子値札",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/商用标签类/墨水屏电子价签_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "墨水屏库房标签",
+                "name_jp": "電子ペーパー倉庫ラベル",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/商用标签类/墨水屏库房标签_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/商用标签类/墨水屏库房标签_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/商用标签类/墨水屏库房标签_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name_cn": "办公展示类",
+            "name_jp": "オフィス展示類",
+            "products": [
+              {
+                "name_cn": "墨水屏席位牌",
+                "name_jp": "電子ペーパー席札",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/办公展示类/墨水屏席位牌_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "墨水屏工牌",
+                "name_jp": "電子ペーパー社員証",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/办公展示类/墨水屏工牌_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/墨水屏办公商用产品/办公展示类/墨水屏工牌_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "手机数码配件",
+        "name_jp": "携帯電話デジタルアクセサリー",
+        "children": [
+          {
+            "name_cn": "手机数码配件",
+            "name_jp": "携帯電話デジタルアクセサリー",
+            "products": [
+              {
+                "name_cn": "手机自拍补光灯",
+                "name_jp": "携帯自撮りライト",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_6.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_7.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机自拍补光灯_8.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              },
+              {
+                "name_cn": "手机后置自拍屏幕",
+                "name_jp": "携帯背面自撮りスクリーン",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机后置自拍屏幕_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机后置自拍屏幕_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机后置自拍屏幕_3.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机后置自拍屏幕_4.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机后置自拍屏幕_5.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/手机数码配件/手机数码配件/手机后置自拍屏幕_6.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name_cn": "通用电源配件",
+        "name_jp": "一般電源アクセサリー",
+        "children": [
+          {
+            "name_cn": "电源适配器",
+            "name_jp": "電源アダプター",
+            "products": [
+              {
+                "name_cn": "电源适配器",
+                "name_jp": "電源アダプター",
+                "images": [
+                  {
+                    "path": "images/数码办公与周边配件/通用电源配件/电源适配器/电源适配器_1.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  },
+                  {
+                    "path": "images/数码办公与周边配件/通用电源配件/电源适配器/电源适配器_2.png",
+                    "description_cn": "",
+                    "description_jp": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

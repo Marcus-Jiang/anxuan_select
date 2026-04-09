@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 设置页面字符编码为 UTF-8，确保中文正确显示 -->
+    <meta charset="UTF-8">
+    <!-- 设置视口，使页面在移动设备上也能正常显示 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 页面标题 -->
+    <title>Anxuan Selected - 管理后台</title>
+
+    <!-- Tailwind CSS CDN - 引入样式框架，用于快速构建美观的界面 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts - 引入中文字体和日文字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- 公共样式表 -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ==========================================
+         顶部导航栏 - 简约风格
+         ========================================== -->
+    <nav class="bg-white border-b border-[#E8E8E3] sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo 和标题区域 -->
+                <div class="flex items-center space-x-3">
+                    <h1 class="text-lg font-medium tracking-wide" style="color: var(--text-primary)">
+                        Anxuan Selected - 管理后台
+                    </h1>
+                </div>
+
+                <!-- 右侧操作按钮区域 -->
+                <div class="flex items-center space-x-4">
+                    <a
+                        href="index.html"
+                        class="btn-hover px-4 py-2 rounded-full text-sm font-medium transition-all duration-200"
+                        style="background-color: #F5F5F3; color: var(--text-secondary)"
+                    >
+                        ← 返回首页
+                    </a>
+
+                    <button
+                        id="btn-add-product"
+                        class="btn-hover px-4 py-2 rounded-full text-sm font-medium transition-all duration-200"
+                        style="background-color: var(--primary-color); color: white;"
+                        onclick="ManageController.openAddProductModal()"
+                    >
+                        + 新增产品
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================================
+         主内容区域
+         ========================================== -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- 页面标题 -->
+        <div class="mb-6">
+            <h2 class="text-xl font-medium" style="color: var(--text-primary)">产品管理</h2>
+            <p class="text-sm mt-1" style="color: var(--text-secondary)">管理所有选品信息</p>
+        </div>
+
+        <!-- 两列布局：左侧分类面板 + 右侧产品列表 -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <!-- ==========================================
+                 左侧：分类管理面板
+                 ========================================== -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-xl shadow-sm p-5" style="border: 1px solid var(--border-color)">
+                    <!-- 分类面板标题和新增一级分类按钮 -->
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-base font-medium flex items-center" style="color: var(--text-primary)">
+                            <svg class="w-5 h-5 mr-2" style="color: var(--primary-color)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                            分类管理
+                        </h3>
+                        <button
+                            class="btn-hover p-1.5 rounded-full transition-all"
+                            style="background-color: var(--primary-color); color: white;"
+                            onclick="ManageController.openAddCategoryModal(null, null, null, 1)"
+                            title="新增一级分类"
+                        >
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- 分类树形结构 -->
+                    <div id="category-tree" class="category-panel">
+                        <!-- 动态填充分类树形结构 -->
+                        <p class="text-sm text-center py-8" style="color: var(--text-secondary)">加载中...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==========================================
+                 右侧：产品列表
+                 ========================================== -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden" style="border: 1px solid var(--border-color)">
+                    <!-- 产品列表标题栏 -->
+                    <div class="px-6 py-4 border-b flex justify-between items-center" style="border-color: var(--border-color); background-color: #FAFAF9">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" style="color: var(--primary-color)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                            </svg>
+                            <span class="text-base font-medium" style="color: var(--text-primary)">产品列表</span>
+                            <span id="product-count" class="ml-3 text-xs px-2 py-1 rounded-full" style="background-color: var(--primary-color); color: white">0</span>
+                        </div>
+
+                        <!-- 当前选中的分类显示 -->
+                        <div id="selected-category" class="text-sm" style="color: var(--text-secondary)">
+                            全部产品
+                        </div>
+                    </div>
+
+                    <!-- 产品列表容器 -->
+                    <div id="product-list" class="divide-y" style="border-color: var(--border-color)">
+                        <!-- 动态填充产品列表项 -->
+                        <div class="p-8 text-center">
+                            <p class="text-base" style="color: var(--text-secondary)">加载中...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         产品编辑/新增模态框
+         ========================================== -->
+    <div id="product-modal" class="fixed inset-0 z-50 hidden">
+        <!-- 模态框背景遮罩 -->
+        <div class="modal-backdrop absolute inset-0" onclick="ManageController.closeProductModal()"></div>
+
+        <!-- 模态框内容 -->
+        <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden fade-in">
+                <!-- 模态框头部 -->
+                <div class="px-6 py-4 border-b flex justify-between items-center" style="border-color: var(--border-color); background-color: #FAFAF9">
+                    <h3 id="modal-title" class="text-lg font-medium" style="color: var(--text-primary)">
+                        编辑产品
+                    </h3>
+                    <button
+                        onclick="ManageController.closeProductModal()"
+                        class="btn-hover p-2 rounded-full transition-colors"
+                        style="color: var(--text-secondary)"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- 模态框内容区域（可滚动） -->
+                <div class="p-6 overflow-y-auto" style="max-height: calc(90vh - 180px)">
+                    <!-- 表单 -->
+                    <form id="product-form" class="space-y-6">
+                        <!-- 分类选择区域 -->
+                        <div class="space-y-4">
+                            <h4 class="text-sm font-medium" style="color: var(--text-primary)">选择分类</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <!-- 一级分类选择 -->
+                                <div>
+                                    <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">一级分类</label>
+                                    <select
+                                        id="category-level1"
+                                        class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                        style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                        onchange="ManageController.onLevel1Change()"
+                                    >
+                                        <option value="">请选择一级分类</option>
+                                    </select>
+                                </div>
+                                <!-- 二级分类选择 -->
+                                <div>
+                                    <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">二级分类</label>
+                                    <select
+                                        id="category-level2"
+                                        class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                        style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                        onchange="ManageController.onLevel2Change()"
+                                        disabled
+                                    >
+                                        <option value="">请选择二级分类</option>
+                                    </select>
+                                </div>
+                                <!-- 三级分类选择 -->
+                                <div>
+                                    <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">三级分类</label>
+                                    <select
+                                        id="category-level3"
+                                        class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                        style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                        disabled
+                                    >
+                                        <option value="">请选择三级分类</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 产品名称输入 -->
+                        <div class="space-y-4">
+                            <h4 class="text-sm font-medium" style="color: var(--text-primary)">产品名称</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <!-- 中文品名 -->
+                                <div>
+                                    <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">
+                                        中文品名 <span style="color: #DC2626">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="product-name-cn"
+                                        class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                        style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                        placeholder="请输入中文品名"
+                                        required
+                                    />
+                                </div>
+                                <!-- 日文品名 -->
+                                <div>
+                                    <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">
+                                        日文品名 <span style="color: #DC2626">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="product-name-jp"
+                                        class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                        style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                        placeholder="请输入日文品名"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 图片管理 -->
+                        <div class="space-y-4">
+                            <h4 class="text-sm font-medium" style="color: var(--text-primary)">产品图片</h4>
+
+                            <!-- 图片预览区域 -->
+                            <div id="image-preview-area" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                <!-- 动态填充图片预览 -->
+                            </div>
+
+                            <!-- 图片上传区域 -->
+                            <div class="border-2 border-dashed rounded-lg p-8 text-center transition-all hover:border-gray-400" style="border-color: var(--border-color)">
+                                <input
+                                    type="file"
+                                    id="image-upload"
+                                    class="hidden"
+                                    accept=".png,.jpg,.jpeg,.gif,.webp"
+                                    multiple
+                                    onchange="ManageController.handleImageUpload(event)"
+                                />
+                                <label
+                                    for="image-upload"
+                                    class="cursor-pointer"
+                                >
+                                    <svg class="w-12 h-12 mx-auto mb-3" style="color: var(--text-secondary)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    </svg>
+                                    <p class="text-sm font-medium" style="color: var(--text-primary)">点击或拖拽上传图片</p>
+                                    <p class="text-xs mt-1" style="color: var(--text-secondary)">支持 PNG、JPG、JPEG、GIF、WEBP 格式</p>
+                                </label>
+                            </div>
+
+                            <!-- 图片描述编辑提示 -->
+                            <p class="text-xs" style="color: var(--text-secondary)">
+                                💡 提示：点击图片可以编辑图片描述，点击右上角的 × 可以删除图片
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 模态框底部 -->
+                <div class="px-6 py-4 border-t flex justify-end space-x-3" style="border-color: var(--border-color); background-color: #FAFAF9">
+                    <button
+                        onclick="ManageController.closeProductModal()"
+                        class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                        style="background-color: #F5F5F3; color: var(--text-secondary)"
+                    >
+                        取消
+                    </button>
+                    <button
+                        onclick="ManageController.saveProduct()"
+                        id="btn-save-product"
+                        class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                        style="background-color: var(--primary-color); color: white;"
+                    >
+                        保存
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         分类新增/编辑模态框
+         ========================================== -->
+    <div id="category-modal" class="fixed inset-0 z-50 hidden">
+        <!-- 模态框背景遮罩 -->
+        <div class="modal-backdrop absolute inset-0" onclick="ManageController.closeCategoryModal()"></div>
+
+        <!-- 模态框内容 -->
+        <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg fade-in">
+                <!-- 模态框头部 -->
+                <div class="px-6 py-4 border-b flex justify-between items-center" style="border-color: var(--border-color); background-color: #FAFAF9">
+                    <h3 id="category-modal-title" class="text-lg font-medium" style="color: var(--text-primary)">
+                        新增分类
+                    </h3>
+                    <button
+                        onclick="ManageController.closeCategoryModal()"
+                        class="btn-hover p-2 rounded-full transition-colors"
+                        style="color: var(--text-secondary)"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="p-6">
+                    <!-- 当前父分类显示 -->
+                    <div id="parent-category-info" class="mb-4 p-3 rounded-lg" style="background-color: #F8F8F7">
+                        <!-- 动态填充父分类信息 -->
+                    </div>
+
+                    <!-- 分类名称输入 -->
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">
+                                中文名称 <span style="color: #DC2626">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="category-name-cn"
+                                class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                placeholder="请输入中文分类名称"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">
+                                日文名称 <span style="color: #DC2626">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="category-name-jp"
+                                class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all"
+                                style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none;"
+                                placeholder="请输入日文分类名称"
+                                required
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-6 py-4 border-t flex justify-end space-x-3" style="border-color: var(--border-color); background-color: #FAFAF9">
+                    <button
+                        onclick="ManageController.closeCategoryModal()"
+                        class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                        style="background-color: #F5F5F3; color: var(--text-secondary)"
+                    >
+                        取消
+                    </button>
+                    <button
+                        onclick="ManageController.saveCategory()"
+                        id="btn-save-category"
+                        class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                        style="background-color: var(--primary-color); color: white;"
+                    >
+                        保存
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         删除确认对话框
+         ========================================== -->
+    <div id="delete-confirm-modal" class="fixed inset-0 z-50 hidden">
+        <!-- 背景遮罩 -->
+        <div class="modal-backdrop absolute inset-0" onclick="ManageController.closeDeleteConfirm()"></div>
+
+        <!-- 对话框内容 -->
+        <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl shadow-2xl w-full max-w-md fade-in">
+                <div class="p-6 text-center">
+                    <!-- 警告图标 -->
+                    <div class="mx-auto w-16 h-16 rounded-full flex items-center justify-center mb-4" style="background-color: #FEE2E2">
+                        <svg class="w-8 h-8" style="color: #DC2626" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                        </svg>
+                    </div>
+
+                    <!-- 提示文字 -->
+                    <h3 class="text-lg font-medium mb-2" style="color: var(--text-primary)">确认删除</h3>
+                    <p id="delete-message" class="text-sm mb-6" style="color: var(--text-secondary)">
+                        您确定要删除这个分类吗？
+                    </p>
+
+                    <!-- 按钮 -->
+                    <div class="flex justify-center space-x-3">
+                        <button
+                            onclick="ManageController.closeDeleteConfirm()"
+                            class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                            style="background-color: #F5F5F3; color: var(--text-secondary)"
+                        >
+                            取消
+                        </button>
+                        <button
+                            onclick="ManageController.confirmDelete()"
+                            id="btn-confirm-delete"
+                            class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                            style="background-color: #DC2626; color: white;"
+                        >
+                            确认删除
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         图片描述编辑模态框
+         ========================================== -->
+    <div id="image-description-modal" class="fixed inset-0 z-50 hidden">
+        <!-- 背景遮罩 -->
+        <div class="modal-backdrop absolute inset-0" onclick="ManageController.closeImageDescModal()"></div>
+
+        <!-- 对话框内容 -->
+        <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg fade-in">
+                <div class="px-6 py-4 border-b flex justify-between items-center" style="border-color: var(--border-color); background-color: #FAFAF9">
+                    <h3 class="text-lg font-medium" style="color: var(--text-primary)">编辑图片描述</h3>
+                    <button
+                        onclick="ManageController.closeImageDescModal()"
+                        class="btn-hover p-2 rounded-full transition-colors"
+                        style="color: var(--text-secondary)"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="p-6">
+                    <!-- 图片预览 -->
+                    <div class="mb-4 flex justify-center">
+                        <img
+                            id="desc-modal-image"
+                            src=""
+                            alt="图片预览"
+                            class="max-h-48 object-contain rounded-lg border"
+                            style="border-color: var(--border-color)"
+                        />
+                    </div>
+
+                    <!-- 描述输入 -->
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">中文描述</label>
+                            <textarea
+                                id="image-desc-cn"
+                                class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all resize-none"
+                                style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none; height: 80px;"
+                                placeholder="请输入中文描述（可选）"
+                            ></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium mb-1.5" style="color: var(--text-secondary)">日文描述</label>
+                            <textarea
+                                id="image-desc-jp"
+                                class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-all resize-none"
+                                style="border-color: var(--border-color); color: var(--text-primary); box-shadow: none; height: 80px;"
+                                placeholder="请输入日文描述（可选）"
+                            ></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="px-6 py-4 border-t flex justify-end space-x-3" style="border-color: var(--border-color); background-color: #FAFAF9">
+                    <button
+                        onclick="ManageController.closeImageDescModal()"
+                        class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                        style="background-color: #F5F5F3; color: var(--text-secondary)"
+                    >
+                        取消
+                    </button>
+                    <button
+                        onclick="ManageController.saveImageDescription()"
+                        class="btn-hover px-5 py-2 rounded-lg text-sm font-medium transition-all"
+                        style="background-color: var(--primary-color); color: white;"
+                    >
+                        保存
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         Toast 提示消息
+         ========================================== -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <div id="toast-icon"></div>
+            <p id="toast-message" class="toast-message"></p>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         JavaScript 模块（按依赖顺序加载）
+         ========================================== -->
+    <!-- 1. 工具函数 -->
+    <script src="js/utils.js"></script>
+    <!-- 2. 国际化 -->
+    <script src="js/i18n.js"></script>
+    <!-- 3. 状态管理 -->
+    <script src="js/state.js"></script>
+    <!-- 4. API 调用 -->
+    <script src="js/api.js"></script>
+    <!-- 5. 数据服务 -->
+    <script src="js/dataService.js"></script>
+    <!-- 6. 管理页主逻辑 -->
+    <script src="js/manage.js"></script>
+</body>
+</html>

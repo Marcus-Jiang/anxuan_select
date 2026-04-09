@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- 设置页面字符编码为 UTF-8，确保中文正确显示 -->
+    <meta charset="UTF-8">
+    <!-- 设置视口，使页面在移动设备上也能正常显示 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 页面标题 -->
+    <title>Anxuan Selected</title>
+
+    <!-- Tailwind CSS CDN - 引入样式框架，用于快速构建美观的界面 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts - 引入中文字体和日文字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- 公共样式表 -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- 顶部导航栏 - 简约风格 -->
+    <nav class="bg-white border-b border-[#E8E8E3] sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <h1 class="text-lg font-medium tracking-wide" id="site-title" style="color: var(--text-primary)">Anxuan Selected</h1>
+                </div>
+
+                <!-- 语言切换按钮 - 简约设计 -->
+                <div class="flex items-center space-x-1 bg-[#F0F0EE] rounded-full p-1">
+                    <button id="btn-jp" class="btn-hover px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200" style="background-color: var(--primary-color); color: white;">
+                        日本語
+                    </button>
+                    <button id="btn-cn" class="btn-hover px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200" style="background-color: transparent; color: var(--text-secondary)">
+                        中文
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <!-- 面包屑导航 -->
+        <div id="breadcrumb" class="mb-8 flex items-center space-x-2 text-sm" style="color: var(--text-secondary)">
+            <!-- 动态填充 -->
+        </div>
+
+        <!-- 分类导航 -->
+        <div id="category-nav" class="mb-10">
+            <!-- 动态填充一级分类 -->
+        </div>
+
+        <!-- 产品网格 -->
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            <!-- 动态填充产品卡片 -->
+        </div>
+    </div>
+
+    <!-- 产品详情模态框 -->
+    <div id="product-modal" class="fixed inset-0 bg-black/40 z-50 hidden flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-2xl max-w-5xl w-full max-h-[92vh] overflow-y-auto fade-in shadow-2xl">
+            <!-- 模态框内容 -->
+            <div id="modal-content">
+                <!-- 动态填充 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast 提示消息 -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <div id="toast-icon"></div>
+            <p id="toast-message" class="toast-message"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript 模块（按依赖顺序加载） -->
+    <!-- 1. 工具函数 -->
+    <script src="js/utils.js"></script>
+    <!-- 2. 国际化 -->
+    <script src="js/i18n.js"></script>
+    <!-- 3. 状态管理 -->
+    <script src="js/state.js"></script>
+    <!-- 4. API 调用 -->
+    <script src="js/api.js"></script>
+    <!-- 5. 数据服务 -->
+    <script src="js/dataService.js"></script>
+    <!-- 6. 展示页主逻辑 -->
+    <script src="js/index.js"></script>
+
+    <!-- 返回顶部按钮 -->
+    <button
+        id="back-to-top"
+        class="fixed bottom-12 right-6 w-10 h-10 rounded-full flex items-center justify-center btn-hover shadow-md opacity-0 transition-all duration-300"
+        style="background-color: var(--primary-color); color: white; z-index: 40; visibility: hidden"
+        onclick="scrollToTop()"
+    >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+    <!-- 返回顶部功能（内联，因为太简单不需要单独模块） -->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function() {
+            const backToTopBtn = document.getElementById('back-to-top');
+            if (window.scrollY > 300) {
+                backToTopBtn.style.opacity = '1';
+                backToTopBtn.style.visibility = 'visible';
+            } else {
+                backToTopBtn.style.opacity = '0';
+                backToTopBtn.style.visibility = 'hidden';
+            }
+        });
+    </script>
+</body>
+</html>
