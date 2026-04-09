@@ -346,6 +346,20 @@ def favicon():
     """
     return '', 204  # 204 No Content，表示没有内容
 
+# 静态文件路由 - 处理 images 目录下的文件
+@app.route('/images/<path:filename>')
+def serve_image(filename):
+    """
+    静态文件路由
+    处理 images 目录下的所有文件请求
+    """
+    import os
+    image_path = os.path.join('images', filename)
+    if os.path.exists(image_path):
+        return send_from_directory('images', filename)
+    else:
+        return '', 404
+
 # ========== 主函数 ==========
 def main():
     """
