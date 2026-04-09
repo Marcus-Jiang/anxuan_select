@@ -2,6 +2,9 @@
 Anxuan_Select_Mac/
 Anxuan_Select_Windows/
 
+# 备份文件夹
+backup/
+
 # Python 打包文件
 *.spec
 build/

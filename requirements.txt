@@ -5,7 +5,3 @@ Flask>=2.0.0
 # Werkzeug - Flask 的依赖库
 # 提供了安全的文件处理等功能
 Werkzeug>=2.0.0
-
-# PyInstaller - 打包工具
-# 用于将 Python 项目打包成可执行文件
-PyInstaller>=5.0.0
