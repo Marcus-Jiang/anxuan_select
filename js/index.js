@@ -320,6 +320,7 @@ const IndexRenderer = {
                             src="${coverPath}"
                             alt="${escapedProductName}"
                             class="w-full h-full object-contain"
+                            data-src="${coverPath}"
                         />
                     </div>
                     <div class="p-4">
@@ -379,6 +380,7 @@ const IndexRenderer = {
                                 src="${img.path}"
                                 alt="${escapeHtml(I18n.t(product))} ${idx + 1}"
                                 class="w-full h-full object-contain max-h-[500px]"
+                                data-src="${img.path}"
                             />
                         </div>
                         ${desc ? `<p class="mt-4 text-base text-center" style="color: var(--text-secondary); white-space: pre-line;">${escapeHtml(desc)}</p>` : ''}
@@ -565,3 +567,10 @@ document.addEventListener('keydown', (e) => {
         IndexRenderer.closeProductModal();
     }
 });
+
+// 全局图片加载失败处理
+document.addEventListener('error', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.target.src = getImagePlaceholderSvg();
+    }
+}, true);
