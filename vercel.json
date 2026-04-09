@@ -3,16 +3,30 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": [
+          "data.json",
+          "index.html",
+          "manage.html",
+          "css/**",
+          "js/**"
+        ]
+      }
+    },
+    {
+      "src": "images/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ],
-  "env": {
-    "PYTHONPATH": "."
-  }
+  ]
 }

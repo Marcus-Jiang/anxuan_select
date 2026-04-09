@@ -315,7 +315,6 @@ def delete_folder():
 
 # ========== 静态文件服务 ==========
 
-# 5. 保持原有的静态文件服务功能
 # 访问根路径时返回 index.html
 @app.route('/')
 def index():
@@ -323,18 +322,18 @@ def index():
     首页路由
     返回 index.html 文件
     """
-    return send_from_directory('.', 'index.html')
+    return send_from_directory(base_dir, 'index.html')
 
-# 6. 支持访问 manage.html 时打开管理页面
+# 支持访问 manage.html 时打开管理页面
 @app.route('/manage.html')
 def manage():
     """
     管理页面路由
     返回 manage.html 文件
     """
-    # 检查 manage.html 是否存在，如果不存在可以返回提示
-    if os.path.exists('manage.html'):
-        return send_from_directory('.', 'manage.html')
+    manage_path = os.path.join(base_dir, 'manage.html')
+    if os.path.exists(manage_path):
+        return send_from_directory(base_dir, 'manage.html')
     else:
         return "管理页面文件 manage.html 不存在，请先创建该文件！", 404
 
@@ -344,19 +343,21 @@ def favicon():
     """
     网站图标路由
     """
-    return '', 204  # 204 No Content，表示没有内容
+    return '', 204
 
-# 静态文件路由 - 处理 images 目录下的文件
+# 静态文件路由 - 处理 images 目录下的文件（本地开发用，Vercel 上由 @vercel/static 处理）
 @app.route('/images/<path:filename>')
 def serve_image(filename):
     """
     静态文件路由
     处理 images 目录下的所有文件请求
+    在 Vercel 上，图片由 @vercel/static 构建器直接从 CDN 提供
+    这个路由只在本地开发时作为备用
     """
-    import os
-    image_path = os.path.join('images', filename)
+    images_dir = os.path.join(base_dir, 'images')
+    image_path = os.path.join(images_dir, filename)
     if os.path.exists(image_path):
-        return send_from_directory('images', filename)
+        return send_from_directory(images_dir, filename)
     else:
         return '', 404
 
