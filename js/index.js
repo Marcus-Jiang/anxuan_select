@@ -320,7 +320,6 @@ const IndexRenderer = {
                             src="${coverPath}"
                             alt="${escapedProductName}"
                             class="w-full h-full object-contain"
-                            onerror="this.src='${getImagePlaceholderSvg()}'"
                         />
                     </div>
                     <div class="p-4">
