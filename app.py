@@ -76,6 +76,25 @@ def ensure_dir_exists(dir_path):
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
+def is_vercel_environment():
+    """
+    检测是否运行在 Vercel Serverless 环境中
+    返回: True 如果是 Vercel 环境，否则 False
+    """
+    # Vercel 会设置这些环境变量
+    return os.environ.get('VERCEL') == '1' or os.environ.get('VERCEL_ENV') is not None
+
+def get_readonly_error():
+    """
+    返回只读环境的错误信息
+    返回: 包含错误信息的字典
+    """
+    return {
+        'success': False,
+        'error': '⚠️ Vercel 云端部署为只读环境，无法执行写操作。\n\n请在本地环境中进行数据修改，然后重新部署到云端。\n\n本地使用方法：\n1. 下载项目到本地\n2. 运行 python app.py\n3. 访问 http://localhost:8888/manage.html\n4. 修改数据后推送到 GitHub',
+        'isReadonly': True
+    }
+
 # ========== API 路由定义 ==========
 
 # 1. GET /api/data - 返回 data.json 的完整内容
@@ -117,6 +136,10 @@ def save_data():
     请求体: JSON 格式的数据
     返回: 操作结果
     """
+    # 检测是否为 Vercel 只读环境
+    if is_vercel_environment():
+        return jsonify(get_readonly_error()), 403
+    
     try:
         # 获取请求体中的 JSON 数据
         # request.get_json() 会自动解析 JSON 请求体
@@ -161,6 +184,10 @@ def upload_image():
         - path: 保存路径（相对路径，例如 'images/分类/产品名.png'）
     返回: 操作结果
     """
+    # 检测是否为 Vercel 只读环境
+    if is_vercel_environment():
+        return jsonify(get_readonly_error()), 403
+    
     try:
         # 检查请求中是否有文件
         if 'file' not in request.files:
@@ -226,6 +253,10 @@ def delete_image():
         - path: 要删除的图片路径
     返回: 操作结果
     """
+    # 检测是否为 Vercel 只读环境
+    if is_vercel_environment():
+        return jsonify(get_readonly_error()), 403
+    
     try:
         # 获取请求参数
         data = request.get_json() or request.form
@@ -271,6 +302,10 @@ def delete_folder():
         - path: 要删除的文件夹路径
     返回: 操作结果
     """
+    # 检测是否为 Vercel 只读环境
+    if is_vercel_environment():
+        return jsonify(get_readonly_error()), 403
+    
     try:
         # 获取请求参数
         data = request.get_json() or request.form

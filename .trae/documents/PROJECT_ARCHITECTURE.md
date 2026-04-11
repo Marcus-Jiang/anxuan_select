@@ -1,7 +1,7 @@
 # 海拓選品 - 项目架构文档
 
-> 文档版本: 3.3\
-> 最后更新: 2026-04-02\
+> 文档版本: 3.5\
+> 最后更新: 2026-04-11\
 > 项目类型: 中日贸易选品展示网站 + 选品管理后台
 
 ***
@@ -44,6 +44,7 @@
 * ✅ **单页应用 (SPA)**: 无刷新切换
 * ✅ **模块化架构**: 代码清晰易维护
 * ✅ **本地化部署**: 无需互联网连接
+* ✅ **云端部署**: 支持 Vercel 云部署
 * ✅ **日语优先**: 默认语言为日语，符合目标用户
 * ✅ **管理后台**: 可视化管理产品和分类
 
@@ -62,27 +63,31 @@ haituo select/
 │   └── styles.css                    # 公共样式表
 │
 ├── js/                               # JavaScript 模块目录
-│   ├── utils.js                      # 工具函数模块（含拖拽排序）
-│   ├── i18n.js                       # 国际化模块
-│   ├── state.js                      # 状态管理模块
 │   ├── api.js                        # API 调用模块
 │   ├── dataService.js                # 数据服务模块
+│   ├── i18n.js                       # 国际化模块
 │   ├── index.js                      # 展示页主逻辑
-│   └── manage.js                     # 管理页主逻辑
+│   ├── manage.js                     # 管理页主逻辑
+│   ├── state.js                      # 状态管理模块
+│   └── utils.js                      # 工具函数模块（含拖拽排序）
 │
 ├── images/                            # 产品图片目录
+│
+├── Anxuan_Select_Mac/                  # Mac 打包输出目录
 │
 ├── index.html                         # 【核心】主页面文件（展示页）
 ├── manage.html                        # 【核心】管理后台页面
 ├── data.json                          # 【核心】产品数据文件
-├── logo1.png                          # 【核心】公司 Logo
 │
 ├── app.py                               # Python 本地服务器（Flask）
+├── Anxuan_Selected.spec                 # PyInstaller 配置文件
+├── build_all.py                         # 批量构建脚本
+├── build_mac.py                         # Mac 打包脚本
 ├── build_windows.py                     # Windows 打包脚本
 ├── build_windows.bat                    # Windows 打包批处理文件
 ├── start_server.bat                     # 快速启动服务器批处理文件
-├── 海拓選品.spec                      # PyInstaller 配置文件
-└── requirements.txt                     # Python 依赖包列表
+├── requirements.txt                     # Python 依赖包列表
+└── vercel.json                          # Vercel 部署配置文件
 ```
 
 ### 文件重要性说明
@@ -101,6 +106,7 @@ haituo select/
 | `js/utils.js`             | ⭐⭐⭐   | **工具函数** - 通用辅助函数、拖拽排序 |
 | `js/i18n.js`              | ⭐⭐⭐   | **国际化** - 中日双语支持         |
 | `app.py`                  | ⭐⭐⭐⭐  | Flask 服务器                   |
+| `vercel.json`             | ⭐⭐⭐   | Vercel 部署配置文件            |
 
 ***
 
@@ -488,6 +494,7 @@ confirmDelete() {
 
 ### 7.1 打包命令
 
+#### Windows 打包
 ```powershell
 # 方法1：使用批处理文件一键打包（推荐）
 双击运行 build_windows.bat
@@ -496,37 +503,132 @@ confirmDelete() {
 python build_windows.py
 ```
 
+#### Mac 打包
+```bash
+# 手动打包
+python build_mac.py
+```
+
+#### 批量打包
+```powershell
+# 同时打包 Windows 和 Mac 版本
+python build_all.py
+```
+
 ### 7.2 打包后输出
 
-输出目录：`HaiTuo_Select_Windows/`
-
+#### Windows 输出目录：`HaiTuo_Select_Windows/`
 ```
 HaiTuo_Select_Windows/
 ├── 海拓選品.exe          # 打包的可执行文件
 ├── index.html             # 展示页
 ├── manage.html            # 管理页
 ├── data.json              # 数据文件
-├── logo1.png              # Logo
 ├── css/                   # 样式目录
 │   └── styles.css
 ├── js/                    # 脚本目录
-│   ├── utils.js
-│   ├── i18n.js
-│   ├── state.js
 │   ├── api.js
 │   ├── dataService.js
+│   ├── i18n.js
 │   ├── index.js
-│   └── manage.js
+│   ├── manage.js
+│   ├── state.js
+│   └── utils.js
 ├── images/                # 图片目录
 └── 使用说明.txt           # 使用说明
 ```
 
-### 7.3 打包后使用
+#### Mac 输出目录：`Anxuan_Select_Mac/`
+```
+Anxuan_Select_Mac/
+├── Start Server.command     # 双击启动脚本
+├── app.py                   # 服务器程序
+├── index.html              # 展示页
+├── manage.html             # 管理页
+├── data.json               # 数据文件
+├── css/                    # 样式目录
+│   └── styles.css
+├── js/                     # 脚本目录
+│   ├── api.js
+│   ├── dataService.js
+│   ├── i18n.js
+│   ├── index.js
+│   ├── manage.js
+│   ├── state.js
+│   └── utils.js
+├── images/                 # 图片目录
+└── 使用说明.txt            # 使用说明
+```
 
+### 7.3 本地使用方法
+
+#### Windows
 1. 将 `HaiTuo_Select_Windows/` 文件夹整体复制到客户电脑
 2. 双击 `海拓選品.exe`
 3. 服务器自动启动，浏览器打开展示页
 4. 访问 `http://localhost:8888/manage.html` 打开管理页
+
+#### Mac
+1. 将 `Anxuan_Select_Mac/` 文件夹复制到 Mac 电脑上
+2. 双击 `Start Server.command` 启动
+3. 如果提示"无法执行"，在终端中执行：`chmod +x "Start Server.command"`
+4. 服务器自动启动，浏览器打开展示页
+5. 访问 `http://localhost:8888/manage.html` 打开管理页
+
+### 7.4 Vercel 云端部署
+
+#### 部署步骤
+1. 将代码推送到 GitHub 仓库
+2. 登录 Vercel 账号
+3. 导入 GitHub 仓库
+4. 选择 Python 框架
+5. 无需额外配置，Vercel 会自动使用 `vercel.json` 文件
+6. 点击 "Deploy" 开始部署
+
+#### 部署后访问
+- 展示页：`https://[project-name].vercel.app/`
+- 管理页：`https://[project-name].vercel.app/manage.html`
+
+#### ⚠️ Vercel 只读限制说明
+
+**重要：Vercel Serverless 环境是只读的，无法执行写操作！**
+
+##### 受限制的功能：
+- ❌ **产品增删改**：无法新增、编辑、删除产品
+- ❌ **分类增删改**：无法新增、编辑、删除分类
+- ❌ **图片上传**：无法上传新图片或替换图片
+- ❌ **图片删除**：无法删除图片或图片文件夹
+- ❌ **数据保存**：无法保存任何数据修改
+
+##### 正常工作的功能：
+- ✅ **数据展示**：可以正常浏览所有产品和分类
+- ✅ **图片显示**：图片由 Vercel CDN 提供，访问速度更快
+- ✅ **语言切换**：中日双语切换正常工作
+- ✅ **搜索筛选**：可以搜索和筛选产品
+
+##### 错误提示：
+当在 Vercel 环境中尝试执行写操作时，系统会返回友好的错误提示：
+```
+⚠️ Vercel 云端部署为只读环境，无法执行写操作。
+
+请在本地环境中进行数据修改，然后重新部署到云端。
+
+本地使用方法：
+1. 下载项目到本地
+2. 运行 python app.py
+3. 访问 http://localhost:8888/manage.html
+4. 修改数据后推送到 GitHub
+```
+
+##### 推荐工作流程：
+1. **本地开发**：在本地环境中使用管理页修改数据
+2. **数据验证**：在本地验证所有修改是否正确
+3. **推送到 GitHub**：将修改后的数据和图片推送到 GitHub
+4. **自动部署**：Vercel 会自动检测 GitHub 更新并重新部署
+5. **云端展示**：在 Vercel 上展示最新数据
+
+##### 技术原因：
+Vercel 的 Serverless 函数运行在只读文件系统中，除了 `/tmp` 目录外无法写入任何文件。这是 Serverless 架构的固有限制，无法通过配置解决。
 
 ***
 
@@ -623,6 +725,19 @@ HaiTuo_Select_Windows/
 ```
 
 ### F. 更新日志
+
+**v3.4 (2026-04-11)**
+- 新增 Vercel 云端部署支持
+- 添加 `vercel.json` 配置文件
+- 优化静态文件处理（使用 @vercel/static 构建器）
+- 修复 Vercel 部署时图片 404 问题
+- 新增 Mac 打包脚本 `build_mac.py`
+- 新增批量构建脚本 `build_all.py`
+- **修复 Vercel 只读环境问题**：
+  - 添加环境检测函数 `is_vercel_environment()`
+  - 在所有写操作 API 中添加只读环境检测
+  - 返回友好的错误提示，指导用户在本地修改数据
+  - 受影响的 API：`POST /api/data`、`POST /api/upload-image`、`POST /api/delete-image`、`POST /api/delete-folder`
 
 **v3.3 (2026-04-02)**
 - 新增智能分类填充功能
